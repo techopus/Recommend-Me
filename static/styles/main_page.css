@@ -9,8 +9,8 @@ body{
     background-size: cover;
 }
 .logo{
-    height: 320px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     padding-left: 20px;
 }
 p{
@@ -27,6 +27,7 @@ p{
     font-family: sans-serif;
 }
 h1{
+    top: 40%;
     color: yellowgreen;
     margin-bottom: 40px;
     font-size: 30px;
