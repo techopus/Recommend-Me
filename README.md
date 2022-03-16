@@ -1,4 +1,3 @@
 # Recommend-Me
 
-##Link-
-recommendmee.herokuapp.com
+##recommendmee.herokuapp.com
