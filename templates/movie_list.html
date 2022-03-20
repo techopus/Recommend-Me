@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="{{ url_for('static',filename='styles/movie_list.css') }}">
     </head>
     <body>
-      {%if s == 'opps'%}
+      {%if s == 'oh-oh'%}
       <div class="choice" style="margin: 0;
       position: absolute;
       top: 50%;
@@ -12,14 +12,14 @@
       margin-right: -50%;
       transform: translate(-50%, -50%);text-align: center;">
         <h4>{{movie}}</h4>
-        <h4>Please search another movie.</h4>
+        <h4>Kindly search again!</h4>
       </div>
       
 
       {%else%}
       <div class="neon">
         <h4 class="choice">{{movie[0]}}!!!</h4> 
-        <h4 class="great_choice">Great Choice...</h4>
+        <h4 class="great_choice">Yo, great choice eh!</h4>
       </div>
             
             <div class="typewriter">
